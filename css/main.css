@@ -147,6 +147,45 @@ p {
   }
 }
 
+.btn {
+  color: #eff0f3;
+  border: none;
+  border-radius: 0.4rem;
+  display: inline-block;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  text-align: center;
+  width: 20rem;
+  transition-duration: 0.5s;
+}
+.btn--red {
+  background-color: #74030e;
+}
+.btn--red:hover {
+  background-color: #68030d;
+}
+.btn--green {
+  background-color: #132601;
+}
+.btn--green:hover {
+  background-color: #112201;
+}
+.btn--outline {
+  background-color: transparent;
+  border: 1px solid #eff0f3;
+}
+.btn--outline:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.btn--circle {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  line-height: 10rem;
+  padding: 0;
+}
+
 .text-color-white {
   color: #eff0f3;
 }
