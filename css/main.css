@@ -77,6 +77,22 @@ p {
   margin-top: 15px;
 }
 
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .container {
+    max-width: 1120px;
+  }
+}
+
 .text-color-white {
   color: #eff0f3;
 }
