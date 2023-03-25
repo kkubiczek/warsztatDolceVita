@@ -93,6 +93,19 @@ p {
   }
 }
 
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .row {
+    flex-direction: row;
+  }
+}
+
 .text-color-white {
   color: #eff0f3;
 }
