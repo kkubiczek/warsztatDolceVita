@@ -11,5 +11,35 @@
     <title>Restauracja Dolce Vita</title>
 </head>
 <body>
+    <!-- BLOK wg BEM -->
+    <header class="site-header">
+        <!-- ELEMENT wg BEM -->
+        <div class="site-header__blackout blackout"></div>
+        <nav>
+            <ul class="site-header__nav nav">
+                <li class="nav__item"><a class="nav__link" href="#start">Start</a></li>
+                <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
+                <li class="nav__item"><a class="nav__link" href="#lokalizacja">Lokalizacja</a></li>
+                <li class="nav__item"><a class="nav__link" href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1 class="site-header__h1 heading--h1">Restauracja Dolce Vita</h1>
+        <a class="site-header__button btn btn--red btn--circle" href="#menu">Menu</a>
+    </header>
+    <main>
+        <section class="site-section" id="start">
+            <h2 class="heading--h2">Start</h2>
+        </section>
+        <section class="site-section site-section--bg-color" id="menu">
+            <h2 class="heading--h2 text-color-white">Menu</h2>
+        </section>
+        <section class="site-section" id="lokalizacja">
+            <h2 class="heading--h2">Lokalizacja</h2>
+        </section>
+        <section class="site-section" id="kontakt">
+            <h2 class="heading--h2">Kontakt</h2>
+        </section>
+    </main>
+    <footer class="site-footer"></footer>
 </body>
 </html>
