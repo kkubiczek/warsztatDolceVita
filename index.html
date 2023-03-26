@@ -77,8 +77,24 @@
                 </div>
             </div>
         </section>
-        <section class="site-section" id="kontakt">
-            <h2 class="heading--h2">Kontakt</h2>
+        <section class="site-contact" id="kontakt">
+            <div class="site-contact__blackout blackout"></div>
+            <h2 class="site-contact__h2 heading--h2">Kontakt</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form class="site-contact__form form">
+                            <label class="form__label" for="mail">Podaj Twój e-mail</label>
+                            <input class="form__item" id="mail">
+                            <label class="form__label" for="subject">Temat wiadomości</label>
+                            <input class="form__item" id="subject">
+                            <label class="form__label" for="message">Treść wiadomości</label>
+                            <textarea class="form__item" id="message" cols="15" rows="5"></textarea>
+                            <input class="form__item btn btn--outline" type="submit" value="Wyślij">
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="site-footer"></footer>
