@@ -305,6 +305,60 @@ p {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.social {
+  width: 200px;
+  height: 83px;
+  background-color: #eff0f3;
+  border: 1px solid gray;
+  z-index: 1;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 1s ease-in-out;
+}
+.social:hover {
+  transform: translateX(135px);
+  cursor: pointer;
+}
+.social__item {
+  background: url("../../assets/img/sprites_socials.png") no-repeat;
+  width: 43px;
+  height: 42px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 20px 0;
+  transition: 0.25s linear;
+}
+.social__item--facebook {
+  background-position: 0px -1px;
+}
+.social__item--facebook:hover {
+  background-position: 0px -43px;
+}
+.social__item--twitter {
+  background-position: -52px -1px;
+}
+.social__item--twitter:hover {
+  background-position: -52px -43px;
+}
+.social__item--youtube {
+  background-position: -104px -1px;
+}
+.social__item--youtube:hover {
+  background-position: -104px -43px;
+}
+.social__item--in {
+  background-position: -155px -1px;
+}
+.social__item--in:hover {
+  background-position: -155px -43px;
+}
+
+.site-body__social {
+  position: fixed;
+  left: -135px;
+  bottom: 20%;
+}
+
 .site-header {
   background: url("../assets/img/start.jpeg") center/cover fixed;
   height: 100vh;
