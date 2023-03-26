@@ -320,7 +320,7 @@ p {
   cursor: pointer;
 }
 .social__item {
-  background: url("../../assets/img/sprites_socials.png") no-repeat;
+  background: url("../assets/img/sprites_socials.png") no-repeat;
   width: 43px;
   height: 42px;
   overflow: hidden;
@@ -398,7 +398,7 @@ p {
 }
 
 .site-contact {
-  background: url("../../assets/img/contact.jpeg") center/cover fixed;
+  background: url("../assets/img/contact.jpeg") center/cover fixed;
   color: #eff0f3;
   position: relative;
   height: 85vh;
