@@ -353,10 +353,39 @@ p {
   background-position: -155px -43px;
 }
 
+.cookies {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  line-height: 1.8rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: #000;
+}
+.cookies__text {
+  font-size: 1.2rem;
+  width: 90%;
+  text-align: justify;
+  padding: 0.5rem;
+}
+.cookies__close {
+  width: 10%;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
 .site-body__social {
   position: fixed;
   left: -135px;
   bottom: 20%;
+}
+.site-body__cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .site-header {
@@ -439,6 +468,14 @@ p {
 
 .text-align-justify {
   text-align: justify;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
